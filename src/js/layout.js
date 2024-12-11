@@ -7,6 +7,8 @@ import { Demo } from "./views/demo";
 import { Single } from "./views/single";
 import injectContext from "./store/appContext";
 
+
+
 import { Navbar } from "./component/navbar";
 import { Footer } from "./component/footer";
 
@@ -33,5 +35,7 @@ const Layout = () => {
 		</div>
 	);
 };
+
+
 
 export default injectContext(Layout);
